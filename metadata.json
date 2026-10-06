@@ -1,0 +1,6 @@
+{
+  "name": "Next Level Fitness | Premium Gym in Sector 119, Balongi, Mohali",
+  "description": "Next Level Fitness is a premier fitness destination in Sector 119, Balongi, Sahibzada Ajit Singh Nagar (Mohali). Modern strength & cardio equipment, personal training, and motivating community.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
