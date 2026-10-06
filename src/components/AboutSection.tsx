@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowRight, CheckCircle2, Shield, Users, Activity } from 'lucide-react';
+import aboutGymInterior from "../assets/images/about_gym_interior_1791208222000.jpg";
 
 interface AboutSectionProps {
   onDiscoverClick: () => void;
@@ -15,7 +16,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onDiscoverClick }) =
           <div className="lg:col-span-6 order-2 lg:order-1 relative">
             <div className="relative rounded-2xl overflow-hidden shadow-xl border-4 border-white dark:border-neutral-800 aspect-4/3 bg-neutral-200 dark:bg-neutral-800 group card-theme">
               <img
-                src="/src/assets/images/about_gym_interior_1791208222000.jpg"
+               src={aboutGymInterior}
                 alt="Next Level Fitness spacious interior and modern machines"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover object-center group-hover:scale-102 transition-transform duration-500"

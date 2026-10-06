@@ -1,4 +1,5 @@
 import React from 'react';
+import facilityWeightsZone from "../assets/images/facility_weights_zone_1791208282025.jpg";
 import { Dumbbell, Activity, ShieldCheck, Sparkles, LayoutGrid, CheckCircle } from 'lucide-react';
 
 export const FacilitiesSection: React.FC = () => {
@@ -76,7 +77,7 @@ export const FacilitiesSection: React.FC = () => {
             <div className="relative rounded-2xl overflow-hidden shadow-xl border-4 border-white dark:border-neutral-800 bg-neutral-100 dark:bg-neutral-900 h-full min-h-[420px] lg:min-h-full group card-theme flex flex-col justify-between p-6">
               {/* Full-bleed background image */}
               <img
-                src="/src/assets/images/facility_weights_zone_1791208282025.jpg"
+                src={facilityWeightsZone}
                 alt="Next Level Fitness weight zone equipment"
                 referrerPolicy="no-referrer"
                 className="absolute inset-0 w-full h-full object-cover group-hover:scale-104 transition-transform duration-700 ease-out"

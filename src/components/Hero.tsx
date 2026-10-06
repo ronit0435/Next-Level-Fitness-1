@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import heroAthleteTraining from "../assets/images/hero_athlete_training_1791208210587.jpg";
 import { Phone, ArrowRight, Dumbbell, ShieldCheck, Flame, Zap, Award, CheckCircle } from 'lucide-react';
 
 interface HeroProps {
@@ -156,7 +157,7 @@ export const Hero: React.FC<HeroProps> = ({ onJoinClick, onExploreClick }) => {
           <div className="lg:col-span-6 xl:col-span-6 relative">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white dark:border-neutral-800 bg-neutral-100 dark:bg-neutral-900 aspect-16/10 lg:aspect-4/3 group card-theme">
               <img
-                src="/src/assets/images/hero_athlete_training_1791208210587.jpg"
+                src={heroAthleteTraining}
                 alt="Next Level Fitness athlete training with heavy barbell"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover object-center group-hover:scale-103 transition-transform duration-700 ease-out"

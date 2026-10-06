@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import facilityStretchingZone from "../assets/images/facility_stretching_zone_1791208347610.jpg";
 import { Star, Clock, Dumbbell, Award, Flame, Check } from 'lucide-react';
 
 export const ExperienceSplit: React.FC = () => {
@@ -150,7 +151,7 @@ export const ExperienceSplit: React.FC = () => {
           <div className="lg:col-span-6 relative">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white dark:border-neutral-800 bg-neutral-100 dark:bg-neutral-900 aspect-4/3 sm:aspect-16/11 group card-theme">
               <img
-                src="/src/assets/images/facility_stretching_zone_1791208347610.jpg"
+                src={facilityStretchingZone}
                 alt="Next Level Fitness facility floor"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover group-hover:scale-103 transition-transform duration-700 ease-out"

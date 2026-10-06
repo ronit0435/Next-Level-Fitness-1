@@ -1,4 +1,5 @@
 import React from 'react';
+import ctaDisciplineLifter from "../assets/images/cta_discipline_lifter_1791208304162.jpg";
 import { ArrowRight, Flame } from 'lucide-react';
 
 interface MotivationalSectionProps {
@@ -52,7 +53,7 @@ export const MotivationalSection: React.FC<MotivationalSectionProps> = ({ onJoin
           <div className="lg:col-span-6 relative">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white dark:border-neutral-800 bg-neutral-100 dark:bg-neutral-900 aspect-16/11 group card-theme">
               <img
-                src="/src/assets/images/cta_discipline_lifter_1791208304162.jpg"
+               src={ctaDisciplineLifter}
                 alt="Next Level Fitness discipline lifter"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover group-hover:scale-103 transition-transform duration-700 ease-out"
