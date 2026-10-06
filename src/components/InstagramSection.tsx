@@ -5,22 +5,22 @@ import { Instagram, ArrowUpRight, Play } from "lucide-react";
 const reels = [
   {
     id: 1,
-    video: "/videos/reel-1.mp4.mp4",
+    video: `${import.meta.env.BASE_URL}videos/reel-1.mp4.mp4`,
     instagramUrl: "https://www.instagram.com/reel/DPVhJB0Aa9H/",
   },
   {
     id: 2,
-    video: "/videos/reel-2.mp4.mp4",
+    video: `${import.meta.env.BASE_URL}videos/reel-2.mp4.mp4`,
     instagramUrl: "https://www.instagram.com/next_level_fitneses/",
   },
   {
     id: 3,
-    video: "/videos/reel-3.mp4.mp4",
+    video: `${import.meta.env.BASE_URL}videos/reel-3.mp4.mp4`,
     instagramUrl: "https://www.instagram.com/next_level_fitneses/",
   },
   {
     id: 4,
-    video: "/videos/reel-4.mp4.mp4",
+    video: `${import.meta.env.BASE_URL}videos/reel-4.mp4.mp4`,
     instagramUrl: "https://www.instagram.com/next_level_fitneses/",
   },
 ];

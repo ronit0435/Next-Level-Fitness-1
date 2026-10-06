@@ -1,62 +1,70 @@
 import React, { useState } from 'react';
 import { GalleryItem } from '../types';
 import { ChevronLeft, ChevronRight, X, Maximize2 } from 'lucide-react';
+import aboutGymInterior from "../assets/images/about_gym_interior_1791208222000.jpg";
+import facilityWeightsZone from "../assets/images/facility_weights_zone_1791208282025.jpg";
+import heroAthleteTraining from "../assets/images/hero_athlete_training_1791208210587.jpg";
+import ctaDisciplineLifter from "../assets/images/cta_discipline_lifter_1791208304162.jpg";
+import progCardioZone from "../assets/images/prog_cardio_zone_1791208243398.jpg";
+import progPersonalCoach from "../assets/images/prog_personal_coach_1791208257005.jpg";
+import facilityStretchingZone from "../assets/images/facility_stretching_zone_1791208347610.jpg";
+import progFunctionalTurf from "../assets/images/prog_functional_turf_1791208271039.jpg";
 
 export const galleryItems: GalleryItem[] = [
   {
     id: 'gal-1',
     title: 'Spacious Main Workout Floor',
     category: 'gym',
-    image: '/src/assets/images/about_gym_interior_1791208222000.jpg',
+    image: aboutGymInterior,
     caption: 'Clean, well-ventilated training premises with ample space between stations.',
   },
   {
     id: 'gal-2',
     title: 'Free Weights & Dumbbells Bay',
     category: 'equipment',
-    image: '/src/assets/images/facility_weights_zone_1791208282025.jpg',
+    image: facilityWeightsZone,
     caption: 'Calibrated chrome and urethane dumbbells with heavy lifting benches.',
   },
   {
     id: 'gal-3',
     title: 'Barbell Compound Lifting',
     category: 'training',
-    image: '/src/assets/images/prog_strength_barbell_1791208232954.jpg',
+    image: heroAthleteTraining,
     caption: 'Olympic deadlift and squat platforms for serious strength development.',
   },
   {
     id: 'gal-4',
     title: 'Supportive Gym Community',
     category: 'community',
-    image: '/src/assets/images/community_fitness_group_1791208292316.jpg',
+    image: ctaDisciplineLifter,
     caption: 'Welcoming members and energetic daily training atmosphere.',
   },
   {
     id: 'gal-5',
     title: 'Cardio Endurance Zone',
     category: 'equipment',
-    image: '/src/assets/images/prog_cardio_zone_1791208243398.jpg',
+    image: progCardioZone,
     caption: 'Commercial treadmills and ellipticals with individual workout displays.',
   },
   {
     id: 'gal-6',
     title: 'Dedicated Trainer Coaching',
     category: 'training',
-    image: '/src/assets/images/prog_personal_coach_1791208257005.jpg',
+    image: progPersonalCoach,
     caption: 'Experienced coaches providing real-time biomechanical guidance.',
   },
   {
     id: 'gal-7',
     title: 'Mobility & Recovery Floor',
     category: 'gym',
-    image: '/src/assets/images/facility_stretching_zone_1791208347610.jpg',
+    image: facilityStretchingZone,
     caption: 'Quiet dedicated space for pre-workout warmup and post-workout mobility.',
   },
   {
     id: 'gal-8',
     title: 'Functional Conditioning Turf',
     category: 'training',
-    image: '/src/assets/images/prog_functional_turf_1791208271039.jpg',
+    image: progFunctionalTurf,
     caption: 'Kettlebells, medicine balls, and athletic agility equipment.',
   },
 ];
